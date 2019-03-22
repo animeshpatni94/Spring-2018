@@ -1,0 +1,26 @@
+Some Missing Tweets:
+1. User might have deleted tweets from the time.
+2. There might be add published, so add won't be counted as tweets.
+3. Tweets can be protected field too.\
+
+
+Male and Female
+Politics: 2
+	Barack Obama
+	Hillary Clinton
+Celebrity: 6
+	Sports:
+		LeBron James
+		Serena Williams
+	Actors/Singer:
+		Katty Perry
+		Justin Beiber
+	Authors:
+		JK Rowling
+		John Green
+Companies/Brands:
+		SpaceX
+		Pepsi
+CEO: 2:
+	Tesla: Elon Musk
+	Genral Motors: Marry Barra

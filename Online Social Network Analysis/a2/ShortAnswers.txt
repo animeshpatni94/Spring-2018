@@ -1,0 +1,187 @@
+﻿Looking at the top errors printed by get_top_misclassified, name two ways you would modify your classifier to improve accuracy (it could be features, tokenization, or something else.)
+
+-> Feature Scaling is one way as Logistic regression usses normalized feautres to achieve the result using StandardScalar
+-> Normalizing the data(L2 normalizer)
+-> TFIDF vectorization or TFIDF transformation(L2 normalization) for the csr matrix that would compute which tells us how important a particular word is to a document in a collection or corpus.
+-> Removing the stopwords, which consumes most of the frequent words like "are","this"
+-> We can use more extensive positive and negative word list: The file and paper can be downloaded from http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
+But yes lot the word may seem negative but the whole sentence would have a positive opinion or visa versa. (Opinion Lexicon)
+-> Part of speech tagging
+-> Using some other model like naive bayes.
+-> Using more data to train the classifier.
+-> Can also remove features with extremely low frequency.
+
+
+
+
+
+
+Implement one of the above methods. How did it affect the results?
+
+-> This putput is done after feature scaling using Standard Scalar method.
+Formula is: (X-Mean)/Standard Deviation(X)
+C:\Users\anime\Anaconda3\lib\site-packages\sklearn\utils\validation.py:475: DataConversionWarning: Data with input dtype int32 was converted to float64 by StandardScaler.
+  warnings.warn(msg, DataConversionWarning)
+best cross-validation result:
+{'punct': True, 'features': (<function token_features at 0x000001E5588267B8>, <function token_pair_features at 0x000001E558826840>), 'min_freq': 5, 'accuracy': 0.8}
+worst cross-validation result:
+{'punct': True, 'features': (<function lexicon_features at 0x000001E558826950>,), 'min_freq': 2, 'accuracy': 0.6475}
+
+Mean Accuracies per Setting:
+features=token_features token_pair_features: 0.79000
+features=token_features token_pair_features lexicon_features: 0.78875
+features=token_features lexicon_features: 0.75208
+features=token_features: 0.75042
+punct=False: 0.74643
+min_freq=5: 0.74446
+min_freq=2: 0.74321
+punct=True: 0.73476
+min_freq=10: 0.73411
+features=token_pair_features lexicon_features: 0.72625
+features=token_pair_features: 0.72542
+features=lexicon_features: 0.65125
+
+TOP COEFFICIENTS PER CLASS:
+negative words:
+token=waste: 0.13692
+token=worst: 0.11197
+token_pair=far__too: 0.10840
+token=boring: 0.10662
+token_pair=the__worst: 0.10488
+
+positive words:
+token=excellent: 0.12287
+token_pair=a__beautiful: 0.11044
+token_pair=is__great: 0.09901
+token=great: 0.09603
+token=worth: 0.09518
+testing accuracy=0.777500
+
+TOP MISCLASSIFIED TEST DOCUMENTS:
+truth=1 predicted=0 proba=0.999621
+In defense of this movie I must repeat what I had stated previously. The movie is called Arachina, it has a no name cast and I do not mean no name as in actors who play in little seen art house films. I mean no name as in your local high school decided to make a film no name and it might have a 2 dollar budget. So what does one expect? Hitchcock?<br /><br />I felt the movie never took itself seriously which automatically takes it out of the worst movie list. That list is only for big budget all star cast movies that takes itself way too seriously. THe movie The Oscar comes to mind, most of Sylvester Stallone's movies. THe two leads were not Hepburn and Tracy but they did their jobs well enough for this movie. The woman kicked butt and the guy was not a blithering idiot. The actor who played the old man was actually very good. The man who played anal retentive professor was no Clifton Webb but he did a god job. And the Bimbo's for lack of a better were played by two competent actors. I laughed at the 50 cent special effects. But that was part of the charm of the movie. It played like a hybrid Tremors meets Night of the Living Dead. The premise of the movie is just like all Giant Bug movies of the 50's. A Meteor or radiation stir up the ecosystem and before you know it we have Giant Ants, Lobsters, rocks or Lizards terrorizing the locals. A meteor was the cause of the problems this time. I was was very entertained. I didn't expect much and I go a lot more then I bargained for.
+
+truth=1 predicted=0 proba=0.977129
+Jewel Thief is *THE* crime thriller of Bollywood, and why should it not be? It is directed by the biggest exponent of the crime thriller art in Indian Cinema Vijay Anand ('Johny Mera Naam' and 'Teesri Manzil.) I could watch this movie for any of the following reasons (in order of importance):<br /><br />1 Vijay Anand's direction 2 R D Burman's music 3 Dev Anand 4 Vyjayanthimala 5 Ashok Kumar 6 Majrooh Sultanpuri's lyrics<br /><br />Even if Jewel Thief is not a Bond Movie it definitely has bond babes. Helen, Tanuja, and the mysterious Vyajanthimala (and some cameos.) But our sauvÃ© Vinay (Dev Anand) is anything but Bond. He is out of control for most of the story and goes where the story takes him almost always as confused as we are. He even flirts with Anju (Tanuja) trying to hit her romantic nerve, just so that he can get employed in her father's shop.<br /><br />Dev Anand might be in a double role - well I don't want to spoil your movie or else I would have told you. That is what most of the mystery is about. Dev Anand works in a Jewelry shop and there is a robbery when he is supposed to be at work - though is not, or at least has a perfect alibi. We wonder who did it, is it Dev Anand as 'Vijay' the person he claims to be or is it 'Amar' someone we have not yet seen but many people claim is his look alike. Comes 'Shalu' (Vyjayanthimala) who even claims that he is her fiancÃ©, in a tense situation Dev Anand has to prove that he is Vinay and not Amar. While everyone wonders if Dev Anand is Vinay or Amar he is asked to remove his socks. Amar we are told has 6 digits on one of his foot. While we watch with bated breath the events that are about to unfold Dev Anand even finds time to joke. <br /><br />The real life brothers Director Vijay Anand and Actor Dev Anand have many movies between them this is not the best of them but definitely the best in Crime Thriller. <br /><br />There are moments of Hitchcock's North By Northwest, but the movies are very different. Except for the confusion about who is who, a treacherous female lead and lot of traveling there isn't a lot of similarity. Dev Anand could very well be Amar in addition to being Vijay. People have seen him, they identify him where ever he goes. There are too many of those people for this to be a fraud. Finally Vinay thinks it is better to carry along with being Amar to find out what is the truth, and it is a sad mistake. He gets too deep into it, only to be saved by the twists of Cinema.<br /><br />When I watched the movie as a kid I was definitely not amused, the ending confused me completely. Even now there are parts about the ending that I do not like, but I'd recommend this movie anyway.<br /><br />Even as a kid I enjoyed the songs this movie has to offer. 'Yeh dil ...' - a definite loafers song in Kishor Kumar's voice. I could hear 'Rulake gaya ...' whole day long. Ditto for 'Aasmaan ke neeche' which is set 'under the skies' of Gangtok (at least the story line suggests that). 'Raat akeli hai' among the sexiest song to come out of Hindi cinema featuring Tanuja as the seductress. 'Meri taraf dekho' - Helen's cabaret and we 'look at her'. 'Hothon pe ...' - now, could there be any better thriller of a song than this. As the song progresses we are more tensed than we ever were and the words 'hidden in Shalu's lips' add to it.
+
+truth=1 predicted=0 proba=0.975093
+Kane is a killer named Jacob Goodnight, he lives in this burned down old hotel, where eight teen convicts go to do some cleaning. Most of them die except for 3 of them. In my case it wasn't the best writing or the best ever. I still thought that the killing scenes were really well done. Like when the one girl go eaten by the hungry dogs. The best had to be when he shoved the cell phone down the Blonde Girl's mouth. Kane was a seriously great horror movie actor, he had this serious look the entire movie and it would never change. That was his only look the entire movie. Great action and killing scenes, I don't think I could give it a full 10 out of 10, but 6 seems good.
+
+truth=0 predicted=1 proba=0.968795
+Two stars <br /><br />Amanda Plummer looking like a young version of her father, Christopher Plummer in drag, stars in this film along with Robert Forster--who really should have put a little shoe black on top of that bald spot.<br /><br />I've never seen Amanda Plummer in a good film. She always plays these slightly wacky characters in films that don't quite add up, and she does so yet again in this one.<br /><br />Firstly, we have two young women, sisters, who don't resemble in the slightest, who allow themselves to be picked up, separately, by questionable men along the roadways.<br /><br />Amanda's character, Sandra, does at least have a good reason for allowing Dr. Jake (Robert Forster)to pick her up in the first place. She has been run off the road, seemingly by a maniac, and her car is pretty much destroyed.<br /><br />Warning - Spoilers ahead! <br /><br />However, as we go along, we realize Dr. Jake is not playing with a full deck any more than Amanda is. He makes every decision based on the flip of a coin.<br /><br />When Dr. Jake and Amanda arrive at a motel, who do we see but the maniac's car, and what does Amanda do but get inside his station wagon and start snooping around. What her motive was for doing this is never clear considering the man is apparently dangerous and might try to kill her. One would think the last thing she would do is place herself in such a precarious situation.<br /><br />Not only does she snoop around, but she finds some money and takes it.<br /><br />Shortly after this we have several other things that don't add up.<br /><br />Dr. Jake, with Amanda as his passenger, runs out of gas, and the two of them abandon his car and begin walking. One would think crossing a desert, he would have checked his gas gauge--this seems a very unlikely thing for him to allow to happen. Then later, he is seen driving the same car. When or how did he get the car back? <br /><br />Dr. Jake tells Amanda he knows she has taken the money. Now how would he know that? He didn't see her do it as far as I know, and she didn't tell him she did it.<br /><br />Then later we have a character named Santini (David Thewlis), the man who was driving the station wagon, give the two of them a lift and I'll be darned if he doesn't know Amanda took the money as well. How would he know that? <br /><br />It loses credibility at an alarming rate the further we go.<br /><br />When Alice, Amanda's sister (Fairuza Balk)gets in the clutches of the killer and decides her fate on the toss of a coin - one would think she would be very, very careful that the coin she swaps for a trick coin would definitely be the trick coin - but apparently it isn't.<br /><br />It's jarring things like this, that destroy any credibility this movie may have had.
+
+truth=1 predicted=0 proba=0.963365
+Ah, classic comedy. At the point in the movie where brains get messed together, a two minute scene with Bruce Campbell beating himself up partially, reminds me of how simplistic movies and ideas can grab you and wrap you into a whole movie.<br /><br />For years and years, Bruce Campbell knows what kind of movies we want out of him. We want to see weird movies like Bubba Ho Tep. We want to see cameo roles in Sam Raimi movies, and we want to see 'Man with the Screaming Brain'. With the title alone, one knows that it's going to border that completely silly type of movie, like Army of Darkness, only with more silly and less monsters.<br /><br />The idea of the movie is simple. Bruce sees doctor. Doctor has new idea. Bruce gets bad things happen to him on way to see doctor. Coincidentally, it's the thing the doctor wanted to show him that saves him. Hilarity ensues.<br /><br />With the addition of Ted Raimi as a weird Russian guy, and journeyman Stacy Keach as Dr. Ivan Ivanovich Ivanov, it's funny, that does this movie. Complete funny. Never a point of scary.<br /><br />If you like the silly Bruce Campbell, you'll like this. Then again, why would you be watching this if you didn't like Bruce Campbell?
+
+
+
+
+-> This output is using the TFIDIF Transformation, the stopwords and the extensive negative, positive words from the link.  
+The testing accuracy is 0.800000
+best cross-validation result:
+{'punct': False, 'features': (<function token_features at 0x000002AF7F65C378>, <function lexicon_features at 0x000002AF7F65C158>), 'min_freq': 10, 'accuracy': 0.74750000000000005}
+worst cross-validation result:
+{'punct': True, 'features': (<function token_pair_features at 0x000002AF7F67E400>,), 'min_freq': 10, 'accuracy': 0.55749999999999988}
+
+Mean Accuracies per Setting:
+features=token_features token_pair_features lexicon_features: 0.73625
+features=token_features lexicon_features: 0.73500
+features=token_features: 0.73500
+features=token_features token_pair_features: 0.73042
+features=token_pair_features lexicon_features: 0.72000
+min_freq=2: 0.71393
+punct=False: 0.71202
+min_freq=5: 0.70875
+punct=True: 0.70417
+min_freq=10: 0.70161
+features=lexicon_features: 0.68250
+features=token_pair_features: 0.61750
+
+TOP COEFFICIENTS PER CLASS:
+negative words:
+neg_words: 2.88048
+token=nothing: 1.18432
+token=bad: 1.15434
+token=worst: 1.15299
+token=movie: 0.91111
+
+positive words:
+pos_words: 2.97943
+token=great: 0.87054
+token=worth: 0.73917
+token=excellent: 0.67107
+token=end: 0.66491
+testing accuracy=0.800000
+
+TOP MISCLASSIFIED TEST DOCUMENTS:
+truth=1 predicted=0 proba=0.724002
+Ah, classic comedy. At the point in the movie where brains get messed together, a two minute scene with Bruce Campbell beating himself up partially, reminds me of how simplistic movies and ideas can grab you and wrap you into a whole movie.<br /><br />For years and years, Bruce Campbell knows what kind of movies we want out of him. We want to see weird movies like Bubba Ho Tep. We want to see cameo roles in Sam Raimi movies, and we want to see 'Man with the Screaming Brain'. With the title alone, one knows that it's going to border that completely silly type of movie, like Army of Darkness, only with more silly and less monsters.<br /><br />The idea of the movie is simple. Bruce sees doctor. Doctor has new idea. Bruce gets bad things happen to him on way to see doctor. Coincidentally, it's the thing the doctor wanted to show him that saves him. Hilarity ensues.<br /><br />With the addition of Ted Raimi as a weird Russian guy, and journeyman Stacy Keach as Dr. Ivan Ivanovich Ivanov, it's funny, that does this movie. Complete funny. Never a point of scary.<br /><br />If you like the silly Bruce Campbell, you'll like this. Then again, why would you be watching this if you didn't like Bruce Campbell?
+
+truth=1 predicted=0 proba=0.686511
+the fact that there was so much fuss is ironic, as the whole point of the programme was to highlight the way the media treat such 'taboo' subjects, such as paedophilia. the newsdesk set, the suits, the smug presenters, the men-at-the-scene shouting about things you can see behind them, the pointless cgi graphs and stats, the whole thing was a satire, a very very funny satire. the way c-list celebrity's will say absolutely anything if their agent tells them it'll be good for their career ("there is no evidence for it, but it is scientific fact"). It may be hard to watch (with milly dowler and the cambridgeshire girls, as well as 9/11), but satire is supposed to be challenging, and we shouldn't be afraid to stand up against the blatant scaremongering and headline grabbing media, just because it's a delicate matter. How this show failed to win any TV awards for it's intelligence, observation, courage, acting and thought provocation is shameful, but, as watching it will show you, not in the least bit surprising.
+
+truth=1 predicted=0 proba=0.670388
+This movie blew me away - I have only seen two episodes of the show, never saw the first movie, but went to a pre-screening where Johnny Knoxville himself introduced the movie, telling us to 'turn off our sense of moral judgment for an hour and a half.' He was right. As a movie, this would probably rate a 2, given it has zero plot, no structure besides randomness, and very little production value. However, that isn't the point. Everyone in our theatre was laughing and gasping the whole way through - not only were some of the stunts creative (see trailer if you need to know but they hid some of the best (or worst depending on how you want to look at it)), but some of the stuff they did took us completely by surprise. These guys do some stuff that won't make it into your newspaper reviews (and probably can't even be published here), involving lots of things below the belt. However, almost 3/4 of the stunts are fantastically hysterical (even if morally condemnable, but remember Knoxville's statement), and if you are in the right mindset this movie is hysterical to watch. Only about 20 minutes of this movie could have actually been shown on TV, so consider yourself warned of what you're getting into - some stuff is disgusting, but instead of being repulsed by it you end up laughing at the sheer stupidity of it all. As a person who thought Jackass the TV show was an over-hyped fad with only a few funny sketches and lots of unnecessary pain, the amount of fun I had at this movie has made me realize that having no boundaries is the best environment for these guys to work in. It's a lot of fun and should be a great comedic fix until the Borat movie comes out. With this movie, you may think you know what you're getting, but these guys are a few steps ahead of you - I guarantee you'll be surprised by the 3rd sketch. So enjoy, and don't worry: you won't want to perform almost any of their stuff at home.
+
+truth=0 predicted=1 proba=0.666293
+I had high hopes for this one after reading earlier reviews but it was so slow and the plot so basic that well I wondered if I had read the wrong reviews. <br /><br />Please, a boy meets girl next door at 11 and both aspire to love and being basketball legends. Grow apart, but watch each others progress. Guess what! Both get scholarships to same university and become lovers again until his father is caught out playing around with a younger woman. Our young hero unable to cope has lapse in court concentration but some how decides to go pro and drop studies, and guess what is picked up by Lakers. Dumps the heroine because she was not there for him during this emotional period. So for 5 years they go their own way. She returns from Spain having lost the zest for the game and our hero is getting married in two weeks. Mom tells her that she should fight for her love so she professes her on-going love and challenges him to a basketball shootout. He wins he marries she wins he loves her. Well he won but decides to dump other girl for our girl. The End has her playing basketball and he has baby duties. Sorry 2 is my high score. My partner she scored 0 for a soapy story for those who read Mills and Boon
+
+truth=0 predicted=1 proba=0.658629
+Much as I really like Catherine Zeta-Jones, I wondered once again, why remake a good movie? This version lacked the tension and passion of Mostly Martha. It was a clear rip off. Maxime Foerste was more convincing as a hurting child who healed with love. I couldn't believe Abigail Breslin. Martina Gedeck owned this role. Unfortunately Zeta-Jones should have found another one that she could own (she has other roles she does own.). Sergio Castellitto was good as a vulnerable but joyful Italian. Aaron Eckhart seemed passionless in comparison. This version was pleasant but bland.<br /><br />The love between Mario and Martha was perhaps predictable but satisfying. The therapist added an interesting bit of color that didn't seem important. I liked it when at the end he said he'd be back but the movie was over before he returned. I have Mostly Martha at home. Every now and then I revisit it.
+
+
+
+
+
+-> This is only using the TFIDF trnaformation.
+The testing accuracy is: 0.76500
+best cross-validation result:
+{'punct': False, 'features': (<function token_features at 0x000001BF3B03C8C8>, <function token_pair_features at 0x000001BF3C0A9C80>, <function lexicon_features at 0x000001BF3F729EA0>), 'min_freq': 10, 'accuracy': 0.7325}
+worst cross-validation result:
+{'punct': False, 'features': (<function lexicon_features at 0x000001BF3F729EA0>,), 'min_freq': 2, 'accuracy': 0.635}
+
+Mean Accuracies per Setting:
+features=token_features token_pair_features lexicon_features: 0.71917
+features=token_features lexicon_features: 0.71417
+features=token_features token_pair_features: 0.71292
+features=token_pair_features lexicon_features: 0.70708
+punct=False: 0.70560
+min_freq=5: 0.70554
+features=token_features: 0.70542
+features=token_pair_features: 0.69958
+min_freq=10: 0.69661
+min_freq=2: 0.69500
+punct=True: 0.69250
+features=lexicon_features: 0.63500
+
+TOP COEFFICIENTS PER CLASS:
+negative words:
+token_pair=token_pair=the__worst: 1.16256
+token=bad: 0.77976
+token_pair=token_pair=this__movie: 0.77136
+token_pair=token_pair=looks__like: 0.71241
+token=worst: 0.70339
+
+positive words:
+pos_words: 0.72642
+token=great: 0.64043
+token=it: 0.60571
+token_pair=token_pair=a__great: 0.59560
+token_pair=token_pair=i__think: 0.58373
+testing accuracy=0.765000
+
+TOP MISCLASSIFIED TEST DOCUMENTS:
+truth=1 predicted=0 proba=0.634266
+The greatest effort plus the finest cast ever assembled in a movie by The Director Tim Robbins and Susan Sarandon And Sean Penn on the front row. Someone said that this movie is good because directed and written by Tim Robbins but i convince you that Sean Penn and Susan Sarandon had give me a truly superb performance that i cried my heart out. Their acting is so real! No doubt about it that this movie is rated 4 and 3/4 out of 5!
+
+truth=1 predicted=0 proba=0.617418
+Nothing really unpredictable in this movie, but a solid flick in all respects. Everything from acting to cinematography was solid. Not a perfectly linear plot line, but there wasn't anything you couldn't see coming. Perhaps a tad melodramatic at points, but again, a fairly decent movie none the less. Definitely worth checking out. If in doubt of what film to rent over the weekend, give this a go. Though you may not feel like running out and buying it, I found it to be quite worth while.
+
+truth=1 predicted=0 proba=0.614354
+Being a freshman in college, this movie reminded me of my relationship with my mom. Of course, my situation doesn't parrallel with Natalie Portman and Surandon's situation; but my mom and I have grown up with the typical mother and daughter fights. There is always the mother telling you what to do, or not being the kind of mother you want to be. I was balling my eyes at the end of this movie. Surandon's reaction of her daughter going to the East coast, miles away, after all they've been through reminded me of how I felt, being from a small city in the West coast, going to New York. <br /><br />The movie is meant for women who have children that are now all grown up. It is very touching, I was moved by the movie. Every feeling out of the characters in this movie was utterly real, you didn't get any phony sentimentality. I was sitting through the credits at the screening of this movie, alone, wishing my mother was sitting next to me so I could hug her and thank her for everything. This movie is a bit corny of course, but everything is trully momentous. Its all about what a mom can learn from her child; and what a child learns from her mother. 8/10
+
+truth=1 predicted=0 proba=0.610052
+This movie blew me away - I have only seen two episodes of the show, never saw the first movie, but went to a pre-screening where Johnny Knoxville himself introduced the movie, telling us to 'turn off our sense of moral judgment for an hour and a half.' He was right. As a movie, this would probably rate a 2, given it has zero plot, no structure besides randomness, and very little production value. However, that isn't the point. Everyone in our theatre was laughing and gasping the whole way through - not only were some of the stunts creative (see trailer if you need to know but they hid some of the best (or worst depending on how you want to look at it)), but some of the stuff they did took us completely by surprise. These guys do some stuff that won't make it into your newspaper reviews (and probably can't even be published here), involving lots of things below the belt. However, almost 3/4 of the stunts are fantastically hysterical (even if morally condemnable, but remember Knoxville's statement), and if you are in the right mindset this movie is hysterical to watch. Only about 20 minutes of this movie could have actually been shown on TV, so consider yourself warned of what you're getting into - some stuff is disgusting, but instead of being repulsed by it you end up laughing at the sheer stupidity of it all. As a person who thought Jackass the TV show was an over-hyped fad with only a few funny sketches and lots of unnecessary pain, the amount of fun I had at this movie has made me realize that having no boundaries is the best environment for these guys to work in. It's a lot of fun and should be a great comedic fix until the Borat movie comes out. With this movie, you may think you know what you're getting, but these guys are a few steps ahead of you - I guarantee you'll be surprised by the 3rd sketch. So enjoy, and don't worry: you won't want to perform almost any of their stuff at home.
+
+truth=1 predicted=0 proba=0.607501
+In defense of this movie I must repeat what I had stated previously. The movie is called Arachina, it has a no name cast and I do not mean no name as in actors who play in little seen art house films. I mean no name as in your local high school decided to make a film no name and it might have a 2 dollar budget. So what does one expect? Hitchcock?<br /><br />I felt the movie never took itself seriously which automatically takes it out of the worst movie list. That list is only for big budget all star cast movies that takes itself way too seriously. THe movie The Oscar comes to mind, most of Sylvester Stallone's movies. THe two leads were not Hepburn and Tracy but they did their jobs well enough for this movie. The woman kicked butt and the guy was not a blithering idiot. The actor who played the old man was actually very good. The man who played anal retentive professor was no Clifton Webb but he did a god job. And the Bimbo's for lack of a better were played by two competent actors. I laughed at the 50 cent special effects. But that was part of the charm of the movie. It played like a hybrid Tremors meets Night of the Living Dead. The premise of the movie is just like all Giant Bug movies of the 50's. A Meteor or radiation stir up the ecosystem and before you know it we have Giant Ants, Lobsters, rocks or Lizards terrorizing the locals. A meteor was the cause of the problems this time. I was was very entertained. I didn't expect much and I go a lot more then I bargained for.

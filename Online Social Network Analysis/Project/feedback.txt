@@ -1,0 +1,14 @@
+This project overall does a nice job of specifying a clear problem, collecting relevant data, and comparing algorithms.
+
+I see that there were a number of changes from your presentation which have made the analysis more appropriate (e.g., favorite count).
+
+Some additional suggestions are below:
+
+> In a second iteration of Logistic Regression, an LR model was fit to predict the Textblob polarity based on Textual analysis. This was done in an attempt to replicate a successful Logistic Regression on the entire dataset, given that only 1,200 of the tweets were manually tagged. In this scenario, Logistic Regression performed with an accuracy of 90%.
+
+Again, it doesn't make a lot of sense to train LR on the output of Textblob. The better number is the cross-validation on the manually tagged data.
+
+I like the evaluations in Figs 5.2.1-5.2.2, but it would be good to also have a table of aggregate error metrics (e.g., MSE).
+
+An important analysis is to look at the coefficients for the final model. (For RandomForest, these are called "feature_importances_"). Additionally, experiments that consider different combinations would be helpful.
+

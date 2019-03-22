@@ -1,0 +1,211 @@
+SpaceX
+pepsi
+elonmusk
+mtbarra
+
+
+name,id,date,text,polarity,retweet,fav,tag
+
+SpaceX,967270883713679360,2018-02-24 05:32:04,"b""Standing down from this weekend's launch attempt to conduct additional testing on the fairing\xe2\x80\x99s pressurization syst\xe2\x80\xa6 https://t.co/ttzPZIaMZF""",-4,1025,10299,-4
+
+SpaceX,966853862530342912,2018-02-23 01:54:58,b'More photos from today\xe2\x80\x99s Falcon 9 launch \xe2\x86\x92 https://t.co/095WHX44BX https://t.co/xeuRZ9WxyZ',4,8225,44540,0
+
+SpaceX,966705029468995585,2018-02-22 16:03:34,"b'RT @elonmusk: First two Starlink demo satellites, called Tintin A &amp; B, deployed and communicating to Earth stations https://t.co/TfI53wHEtz'",4,7671,0,4
+
+SpaceX,966681978572451840,2018-02-22 14:31:58,b'Successful deployment of PAZ satellite to low-Earth orbit confirmed. https://t.co/xOEuyaFrcZ',4,4947,28409,4
+
+SpaceX,966680639305953281,2018-02-22 14:26:39,b'Second stage engine cutoff confirmed.',4,454,5743,4
+
+SpaceX,966679124155678720,2018-02-22 14:20:37,b'Fairing has deployed.',0,551,6861,4
+
+SpaceX,966679026407387136,2018-02-22 14:20:14,b'Main engine cutoff and stage separation confirmed. Second stage engine burn underway.',4,415,4592,4
+
+SpaceX,966678421580390400,2018-02-22 14:17:50,b'Liftoff! https://t.co/gtC39uBC7z',0,1087,5610,4
+
+SpaceX,966678020210638849,2018-02-22 14:16:14,b'T-60 seconds until launch \xe2\x86\x92 https://t.co/gtC39uBC7z',0,461,3018,0
+
+SpaceX,966675261491101697,2018-02-22 14:05:16,b'Webcast of Falcon 9 launch is now live \xe2\x86\x92 https://t.co/gtC39uBC7z',4,2134,9194,0
+
+SpaceX,966663753897934848,2018-02-22 13:19:33,b'T-60 minutes until Falcon 9 launch of PAZ. Launch webcast will go live about 15 minutes before liftoff \xe2\x86\x92 https://t.co/gtC39uBC7z',4,1659,6309,0
+
+SpaceX,966313372814749701,2018-02-21 14:07:15,b'Standing down today due to strong upper level winds. Now targeting launch of PAZ for February 22 at 6:17 a.m. PST f\xe2\x80\xa6 https://t.co/vzSU5gta96',4,2334,12494,-4
+
+SpaceX,966307027684225025,2018-02-21 13:42:03,"b'T-40 minutes until Falcon 9 launch of PAZ. Pending weather balloon data, launch webcast will go live about 15 minut\xe2\x80\xa6 https://t.co/BWe8JYtI5f'",4,1238,5480,0
+
+SpaceX,966187350740127744,2018-02-21 05:46:29,b'Static fire test of Falcon 9 complete\xe2\x80\x94targeting February 25 launch of Hispasat 30W-6 from Pad 40 in Florida.',4,1122,9380,4
+
+SpaceX,966075198616363008,2018-02-20 22:20:50,b'Falcon 9 and PAZ are vertical on Space Launch Complex 4E at Vandenberg Air Force Base in California. Weather is 90%\xe2\x80\xa6 https://t.co/zifUWcRgjn',-4,3726,19385,4
+
+SpaceX,964937069901447168,2018-02-17 18:58:19,b'Team at Vandenberg is taking additional time to perform final checkouts of upgraded fairing. Payload and vehicle re\xe2\x80\xa6 https://t.co/IIfqyFsuay',0,1333,10553,0
+
+SpaceX,964342882579619841,2018-02-16 03:37:14,b'Now targeting February 18 launch of PAZ from SLC-4E to allow for additional time for pre-launch systems checks. Fal\xe2\x80\xa6 https://t.co/xA5hgIpkqm',0,1544,13145,0
+
+SpaceX,962784246128558080,2018-02-11 20:23:46,b'Static fire test of Falcon 9 complete\xe2\x80\x94targeting February 17 launch of PAZ from Vandenberg Air Force Base in California.',-4,2128,19274,0
+
+SpaceX,961085127206957056,2018-02-07 03:52:05,b'RT @elonmusk: Third burn successful. Exceeded Mars orbit and kept going to the Asteroid Belt. https://t.co/bKhRN73WHF',4,39652,0,4
+
+SpaceX,961084879432597504,2018-02-07 03:51:06,"b""More photos from Falcon Heavy's first flight \xe2\x86\x92 https://t.co/095WHX44BX https://t.co/6vlXJoYif0""",4,18460,63789,4
+
+SpaceX,961001555817148416,2018-02-06 22:20:00,b'Live Views of Starman https://t.co/G335kvVsta',4,38220,72725,4
+
+SpaceX,960994111934357504,2018-02-06 21:50:25,b'RT @elonmusk: Live view of Starman https://t.co/gvSlztlE6l',4,26877,0,4
+
+SpaceX,960991138730725376,2018-02-06 21:38:36,"b'RT @elonmusk: Upper stage restart nominal, apogee raised to 7000 km. Will spend 5 hours getting zapped in Van Allen belts &amp; then attempt fi\xe2\x80\xa6'",0,15667,0,4
+
+SpaceX,960980303689891840,2018-02-06 20:55:33,b'Second stage engine cutoff as planned.',0,3544,35684,4
+
+SpaceX,960980119312453632,2018-02-06 20:54:49,b'Falcon Heavy side cores have landed at SpaceX\xe2\x80\x99s Landing Zones 1 and 2. https://t.co/oMBqizqnpI',-4,78756,237723,4
+
+SpaceX,960979671893426176,2018-02-06 20:53:02,b'Center core and side cores entry burns complete.',0,2106,20004,4
+
+SpaceX,960978626744233984,2018-02-06 20:48:53,b'Center core engine cutoff and separation from second stage confirmed. Second stage burn underway.',4,1988,17041,4
+
+SpaceX,960978490727124992,2018-02-06 20:48:20,b'Side cores engine cutoff and separation from center core confirmed. Center core continuing as planned.',4,1800,14803,4
+
+SpaceX,960977977772093440,2018-02-06 20:46:18,b'Liftoff! https://t.co/2ypESsi1sF',0,50394,175278,4
+
+SpaceX,960977465249165312,2018-02-06 20:44:16,b'T-60 seconds until launch of Falcon Heavy \xe2\x86\x92 https://t.co/gtC39uBC7z',-4,1842,9500,0
+
+SpaceX,960972215729537024,2018-02-06 20:23:24,b'Falcon Heavy test flight webcast is now live \xe2\x86\x92 https://t.co/gtC39uBC7z',-4,8090,17521,0
+
+SpaceX,960962632717975554,2018-02-06 19:45:20,b'T-60 minutes until Falcon Heavy\xe2\x80\x99s first test flight. Launch webcast will go live about 20 minutes before liftoff \xe2\x86\x92 https://t.co/gtC39uBC7z',4,6602,16511,0
+
+SpaceX,960948676557352960,2018-02-06 18:49:52,"b'Continue to monitor the upper level wind shear. New T-0 is 3:45 p.m. EST, 20:45 UTC.'",4,3693,13266,0
+
+SpaceX,960920426485399552,2018-02-06 16:57:37,"b'T-0 delayed to 2:20 p.m. EST, 19:20 UTC due to upper level wind shear. Continuing to monitor winds and will update\xe2\x80\xa6 https://t.co/ie46hlCw9L'",-4,5060,15038,-4
+
+SpaceX,960910705808609280,2018-02-06 16:18:59,b'All systems remain go for today\xe2\x80\x99s test flight of Falcon Heavy. Weather is 90% favorable for today\xe2\x80\x99s two-and-a-half\xe2\x80\xa6 https://t.co/RLAu8JYQKI',-4,6038,20801,4
+
+SpaceX,960689996351991808,2018-02-06 01:41:58,"b'The first test flight of Falcon Heavy is targeted for Tuesday, Feb. 6th at 1:30 PM ET from Launch Complex 39A at Ke\xe2\x80\xa6 https://t.co/VTkjZmt3CV'",-4,12040,34224,0
+
+SpaceX,960582725156655104,2018-02-05 18:35:43,b'RT @elonmusk: Falcon Heavy sends a car to Mars https://t.co/Y7uBtU6Mt2',-4,16828,0,4
+
+SpaceX,958859413489565696,2018-02-01 00:27:53,"b""Falcon 9's launch of GovSat-1 to a Geostationary Transfer Orbit is SpaceX's sixth mission with a flight-proven rock\xe2\x80\xa6 https://t.co/8aeGqNsHVa""",0,1970,10352,0
+
+SpaceX,958822086700539904,2018-01-31 21:59:34,b'Successful deployment of GovSat-1 to a Geostationary Transfer Orbit confirmed. https://t.co/0D3h7hR7YF',4,1938,15366,4
+
+SpaceX,958821384007827457,2018-01-31 21:56:46,b'Back live for satellite deployment \xe2\x86\x92 https://t.co/gtC39uBC7z',4,142,1457,4
+
+SpaceX,958820759404605440,2018-01-31 21:54:17,b'Webcast returns in ~5 minutes for satellite deployment \xe2\x86\x92 https://t.co/gtC39uBC7z',0,126,1282,0
+
+SpaceX,958820591254958080,2018-01-31 21:53:37,b'Final second stage engine cutoff nominal.',0,125,1838,4
+
+SpaceX,958819988856451072,2018-01-31 21:51:14,b'Back live for final burn \xe2\x86\x92 https://t.co/gtC39uBC7z',4,155,1256,4
+
+SpaceX,958816496771203072,2018-01-31 21:37:21,b'Webcast returns in ~15 minutes for second stage engine restart.',0,174,1667,0
+
+SpaceX,958816002812231680,2018-01-31 21:35:23,b'Second stage and satellite now in coast phase.',0,237,2574,4
+
+SpaceX,958814484088307713,2018-01-31 21:29:21,b'Fairing has deployed.',0,217,2357,4
+
+SpaceX,958814171461660672,2018-01-31 21:28:07,b'Main engine cutoff and stage separation confirmed. Second stage engine burn underway.',4,313,3152,4
+
+SpaceX,958813616387403776,2018-01-31 21:25:54,b'Liftoff! https://t.co/ItZOmXBagL',0,5694,44376,4
+
+SpaceX,958813175788392448,2018-01-31 21:24:09,b'T-60 seconds until launch \xe2\x86\x92 https://t.co/gtC39uBC7z',0,339,1856,4
+
+SpaceX,958810321212211200,2018-01-31 21:12:49,b'Webcast of Falcon 9 launch is now live \xe2\x86\x92 https://t.co/gtC39uBC7z',4,703,2162,0
+
+SpaceX,958798414686244864,2018-01-31 20:25:30,b'T-60 minutes until Falcon 9 launch of GovSat-1. Launch webcast will go live about 15 minutes before liftoff \xe2\x86\x92 https://t.co/gtC39uBC7z',4,1694,9143,0
+
+pepsi,967474261731442692,2018-02-24 19:00:13,b'All about @Tinashe giving major 2000s vibes for @lsb this week! https://t.co/5S97jTtgvh',4,96,395,4
+
+pepsi,967124685413601282,2018-02-23 19:51:07,"b""@ToddSeavey We're sorry to hear that! Please send us a DM so we can learn more about your experience. Thanks! https://t.co/8LjeTK5isQ""",4,0,0,0
+
+pepsi,967064808846712832,2018-02-23 15:53:12,"b""@chefbake1 We're sorry to hear that! Please send us a DM so we can learn more about your experience. Thanks! https://t.co/8LjeTK5isQ""",4,0,0,0
+
+pepsi,967058109649817602,2018-02-23 15:26:35,"b""@MiMi_Musings We're sorry to hear that! Please send us a DM so we can learn more about your experience. Thanks! https://t.co/8LjeTK5isQ""",4,0,0,0
+
+pepsi,967057848294354944,2018-02-23 15:25:32,"b""@tydraestor We're sorry to hear that! Please send us a DM so we can learn more about your experience. Thanks! https://t.co/8LjeTK5isQ""",4,0,0,0
+
+pepsi,967053797456564226,2018-02-23 15:09:26,b'RT @lsb: .@Tinashe is helping us celebrate every generation. https://t.co/pXtTTjIeum',0,739,0,4
+
+pepsi,966791910386958336,2018-02-22 21:48:48,"b'@drquuxum While we have refreshed our lineup to make Diet Pepsi Classic Taste more widely available, rest assured D\xe2\x80\xa6 https://t.co/NZFctw2xru'",4,1,1,4
+
+pepsi,966768591768031234,2018-02-22 20:16:08,b'@Jordanevans_97 We\xe2\x80\x99re sorry about that. Please give our team a call at 1-855-737-7497 so we can assist you.',-4,0,0,0
+
+pepsi,966767956180045824,2018-02-22 20:13:37,b'@chvcho_juarez We\xe2\x80\x99d recommend contacting the PepsiCo office in M\xc3\xa9xico for more information: https://t.co/BjDKowe9SL',4,0,0,0
+
+pepsi,966715006808182786,2018-02-22 16:43:12,"b""@beckster_1977 We're sorry about that! Please send us a DM so we can learn more about your experience. Thanks! https://t.co/8LjeTK5isQ""",4,0,0,0
+
+pepsi,966406346101936138,2018-02-21 20:16:42,b'@GManMovieReview Diet Pepsi Classic Taste will be made widely available in all markets in a silver package with a \xe2\x80\x9c\xe2\x80\xa6 https://t.co/wgdni59hmQ',4,1,4,0
+
+pepsi,966338097792167936,2018-02-21 15:45:30,b'@BlackNBlueBloc Local availability of our products can vary. Check https://t.co/OdGS5Cn9VL to see what\xe2\x80\x99s sold near you.',4,0,0,0
+
+pepsi,966100188359217152,2018-02-21 00:00:08,b'Pepsi on ice \xf0\x9f\x98\x8b https://t.co/2m6Y0zhnMU',0,124,620,0
+
+pepsi,966058465083973637,2018-02-20 21:14:21,b'@AmericaFirst433 This is just a rumor and it\xe2\x80\x99s completely untrue! You can find out more about it here: https://t.co/WWWyf5lt8l',4,0,0,-4
+
+pepsi,965973635100966913,2018-02-20 15:37:16,"b'@LocalSoundwave Oh no, sorry to hear that! Mind reporting it? Give us a call at 1-800-433-2652, M-F 9-5 ET or email https://t.co/pNfskzBx7e'",4,0,0,0
+
+pepsi,965957224198819841,2018-02-20 14:32:03,"b""@slpydana We're sorry to hear that! Please send us a DM so we can learn more about your experience. Thanks! https://t.co/8LjeTK5isQ""",4,0,0,0
+
+pepsi,965956392204029952,2018-02-20 14:28:45,"b""@bigdaddyleo1037 We're sorry about that! Please send us a DM so we can learn more about your experience. Thanks! https://t.co/8LjeTK5isQ""",4,0,0,0
+
+pepsi,965951488911642625,2018-02-20 14:09:16,"b'@Degenerate_UK This design is currently only available in the U.S., but keep an eye out for other retro designs aro\xe2\x80\xa6 https://t.co/O2cK5iyAIO'",4,0,0,-4
+
+pepsi,965345208337666048,2018-02-18 22:00:07,b'Love this vintage Pepsi cooler? It could be yours just by drinking Pepsi! https://t.co/XzyEI18oqQ https://t.co/06R0FA67iL',4,103,505,4
+
+pepsi,964922451569364992,2018-02-17 18:00:14,b'We are all about @Tinashe bringing the 90s back on @lsb! https://t.co/5COzRPgBtw',0,216,743,0
+
+pepsi,964609180589002754,2018-02-16 21:15:24,"b""@PathaniaTrigun We're sorry to hear that! Please send us a DM so we can learn more about your experience. Thanks!  https://t.co/8LjeTK5isQ""",4,0,0,0
+
+pepsi,964608597211656192,2018-02-16 21:13:05,"b""@edabooski Eda, we're sorry about that! Please send us a DM so we can learn more about your experience. Thanks!  https://t.co/8LjeTK5isQ""",4,0,0,0
+
+pepsi,964527354151350272,2018-02-16 15:50:15,b'@anamikavinod This is just a rumor and it\xe2\x80\x99s completely untrue. You can find out more here: https://t.co/UY3hGENpC6',4,1,1,-4
+
+pepsi,964523776976105472,2018-02-16 15:36:03,"b""@ryan15crowley Ryan, we're sorry about that! Please send us a DM so we can learn more about your experience. Thanks\xe2\x80\xa6 https://t.co/G2ItQxZerG""",4,0,3,0
+
+pepsi,964522018795384833,2018-02-16 15:29:03,"b'@ishank_mehrotra Hi Ishank, this design is currently only available in the U.S., but keep an eye out for other retr\xe2\x80\xa6 https://t.co/Kp7a8qjrJ9'",4,0,0,0
+
+pepsi,964512112692383744,2018-02-16 14:49:42,"b""@ErikMaki Erik, we're sorry about that! Please send us a DM so we can learn more about your experience. Thanks!  https://t.co/8LjeTK5isQ""",4,0,0
+
+pepsi,964511631471534086,2018-02-16 14:47:47,b'@GinaBoles Hi Gina! Local availability of our products can vary. Check https://t.co/OdGS5C5z4d to see what\xe2\x80\x99s sold n\xe2\x80\xa6 https://t.co/C6fjxFtZBo',0,0,0
+
+pepsi,964505653539672064,2018-02-16 14:24:02,b'@cprez24 We\xe2\x80\x99re sorry to hear that! Please reach out to our Consumer Relations team here: https://t.co/pNfskzBx7e or here: 1-800-433-2652',-4,0,0
+
+pepsi,964505528817905665,2018-02-16 14:23:32,b'@Bidaruv The iconic vintage designs will only be out for a limited time',4,0,0
+
+pepsi,964478475401822209,2018-02-16 12:36:02,"b'RT @UncleDrewFilm: OG All-Stars from the \xf0\x9f\x8f\x80 courts to the big screen. Watch @KyrieIrving play #UncleDrew \xf0\x9f\x91\xb4\xf0\x9f\x8f\xbe in this NEW teaser trailer, then\xe2\x80\xa6'",4,27207,0
+
+pepsi,964245230735319041,2018-02-15 21:09:12,"b'@johnmulcahy16 This design is currently only available in the U.S., but keep an eye out for other retro designs aro\xe2\x80\xa6 https://t.co/rsRRQLKo0q'",4,0,1
+
+pepsi,964212811147640833,2018-02-15 19:00:23,"b'Rocking our old school look, and you can too. Retro Pepsi cans are back! https://t.co/Tg6vpqPH2I'",4,108,468
+
+pepsi,964144425084620800,2018-02-15 14:28:38,"b'@Poisonillusion It\xe2\x80\x99s the same great Pepsi you\xe2\x80\x99ve come to love, just with a retro design! Should you have any additi\xe2\x80\xa6 https://t.co/SpE3vd7Cfm'",4,0,0
+
+pepsi,963886963228069888,2018-02-14 21:25:34,b'@AlstonIngramJr Hi Alston. This is just a rumor and it\xe2\x80\x99s completely untrue. You can find out more about it here: https://t.co/WWWyf5lt8l',4,1,0
+
+pepsi,963872996057284620,2018-02-14 20:30:04,"b'Way before Uncle Drew took his skills to the big screen, he took his talents to South Beach for Chapter 4. Rewatch\xe2\x80\xa6 https://t.co/N4204K8aJg'",0,19,90
+
+pepsi,963784072676884480,2018-02-14 14:36:43,b'@JayRussell90254 Hi Jay. This is just a rumor and it\xe2\x80\x99s completely untrue! You can find out more about it here: https://t.co/WWWyf53RJL',4,1,0
+
+pepsi,963781179748044800,2018-02-14 14:25:14,"b""@flath2o Amy, we're sorry about that! Please send us a DM so we can learn more about your experience. Thanks!  https://t.co/8LjeTK5isQ""",4,0,0
+
+pepsi,963779136169959424,2018-02-14 14:17:06,b'@Liberty0rdeath7 This is just a rumor and it\xe2\x80\x99s completely untrue! You can find out more about it here: https://t.co/WWWyf5lt8l',4,1,0
+
+pepsi,963571007134068738,2018-02-14 00:30:05,"b""For you youngbloods out there, before the @UncleDrewFilm was made, he assembled his team. Rewatch Drew show 'em how\xe2\x80\xa6 https://t.co/umsed9azw6""",0,22,88
+
+pepsi,963518201333198848,2018-02-13 21:00:15,b'Zero complaints about these icy conditions \xf0\x9f\x98\x89 https://t.co/Ac2WjKvjkX',-4,57,325
+
+pepsi,963498838664318982,2018-02-13 19:43:18,b'@beyzaolm We\xe2\x80\x99d recommend contacting the PepsiCo office in Turkey for more information: https://t.co/bVvWnd3nDo',4,0,1
+
+pepsi,963424942514634752,2018-02-13 14:49:40,"b""@jward28358 Jessica, we're sorry about that! Please send us a DM so we can learn more about your experience. Thanks\xe2\x80\xa6 https://t.co/dqPxf0br0Z""",4,0,0
+
+pepsi,963421270959382528,2018-02-13 14:35:05,"b'@johnverse68 Hi there, thanks for reaching out. We\xe2\x80\x99d suggest trying to claim your prize again today after 12:00pm E\xe2\x80\xa6 https://t.co/XiDO0Wt13c'",4,0,1
+
+pepsi,963110503341010947,2018-02-12 18:00:12,"b'Age is just a state of mind and Uncle Drew vids never get old. Before the @UncleDrewFilm gets here in June, watch h\xe2\x80\xa6 https://t.co/ihKdjo33la'",4,20,110
+
+pepsi,963079758799089668,2018-02-12 15:58:02,b'@Ralor9 This is just a rumor and it\xe2\x80\x99s completely untrue! You can find out more about it here: https://t.co/WWWyf5lt8l',4,1,0
+
+pepsi,963074185974157312,2018-02-12 15:35:53,"b""@goner_erin We're sorry about that! Please send us a DM so we can learn more about your experience. Thanks!  https://t.co/8LjeTK5isQ""",4,0,1
+
+pepsi,963072746006642693,2018-02-12 15:30:10,"b""@terinaluvsbama Terina, we're sorry about that! Please send us a DM so we can learn more about your experience. Tha\xe2\x80\xa6 https://t.co/HwPPHIjH71""",0,0,0
+
+pepsi,963072565597102080,2018-02-12 15:29:27,"b'@KochDarci It\xe2\x80\x99s the same great Pepsi you\xe2\x80\x99ve come to love, just with a retro design! Should you have any additional\xe2\x80\xa6 https://t.co/Ybi4s5pwe2'",4,0,0
+
+pepsi,963069332078170113,2018-02-12 15:16:36,b'@Fizzarcher We\xe2\x80\x99d recommend contacting the PepsiCo office in the U.K. for more information: https://t.co/DyUXSor9Kj',4,0,0
+
+pepsi,963068924974727169,2018-02-12 15:14:59,b'@RiRyeBread We\xe2\x80\x99re sorry to hear that! Please reach out to our Consumer Relations team here: https://t.co/pNfskzBx7e or here: 1-800-433-2652',-4,0,0
+
+pepsi,963067793301221377,2018-02-12 15:10:29,"b'@AlexJPoirier This design is currently only available in the U.S., but keep an eye out for other retro designs arou\xe2\x80\xa6 https://t.co/AfzxP5FW1o'",4,0,1
